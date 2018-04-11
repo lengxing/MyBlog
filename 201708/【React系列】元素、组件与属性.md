@@ -46,11 +46,11 @@
 #### 渲染组件
 
   以函数式组件为例：
+  
     ```
     function Welcome(props) {
       return <h1>Hello, {props.name}</h1>;
-    }
-    
+    } 
     const element = <Welcome name="Sara" />;
     ReactDOM.render(
       element,
@@ -61,8 +61,8 @@
 
 - 我们调用了 ReactDOM.render() 方法并向其中传入了 <Welcome name="Sara" /> 元素。
 - React 调用 Welcome 组件，并向其中传入了 {name: 'Sara'} 作为 props 对象。
-- Welcome 组件返回 <h1>Hello, Sara</h1>。
-- React DOM 迅速更新 DOM ，使其显示为 <h1>Hello, Sara</h1>。
+- Welcome 组件返回 `<h1>Hello, Sara</h1>`。
+- React DOM 迅速更新 DOM ，使其显示为 `<h1>Hello, Sara</h1>`。
 
 > ❤ 组件名称总是以大写字母开始。
 
