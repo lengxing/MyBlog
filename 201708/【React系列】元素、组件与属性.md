@@ -2,9 +2,9 @@
 
   元素（Elements）是React应用中最小的构建部件，用于描述能够在屏幕上看到的内容，如： 
   
-    ```   
+      
     const element = <h1> Hello World ! </h1>
-    ```
+    
     
   元素是构成组件的“材料”。
     
@@ -12,14 +12,14 @@
 
   要渲染一个React元素到DOM上面需要有一个根节点，之后把他们传递给ReactDOM.render()方法。
     
-    ```
+    
     <div id="root"></div>
     const element = <h1>Hello World!</h1>;
     ReactDOM.render(
         element,
         document.getElementById("root")
     );
-    ```
+    
     
 #### 更新已经渲染的元素
   React元素是不可突变（immutable）的。一旦创建了一个元素，就不能更改其子元素或者属性。只能创建一个新的元素，通过传入ReactDOM.render()方法进行更新。
@@ -48,7 +48,7 @@
 
   以函数式组件为例：
   
-    ```
+    
     function Welcome(props) {
       return <h1>Hello, {props.name}</h1>;
     } 
@@ -57,7 +57,7 @@
       element,
       document.getElementById('root')
     );
-    ```    
+       
   当 React 遇到一个代表用户定义组件的元素时，它将 JSX 属性以一个单独对象的形式传递给相应的组件。 我们将其称为 "props" 对象。简单顺序如下：
 
 - 我们调用了 ReactDOM.render() 方法并向其中传入了 <Welcome name="Sara" /> 元素。
