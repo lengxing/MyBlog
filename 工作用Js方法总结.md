@@ -1,7 +1,21 @@
 主要整理日常工作中常用的一些通用Js代码，以方便能够记录与使用。
 
 - [1.截取指定字节数的字符串](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#1%E6%88%AA%E5%8F%96%E6%8C%87%E5%AE%9A%E5%AD%97%E8%8A%82%E6%95%B0%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2)
-- [5.对象克隆、深拷贝]()
+- [2.判断是否微信](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#2%E5%88%A4%E6%96%AD%E6%98%AF%E5%90%A6%E5%BE%AE%E4%BF%A1)
+- [3.获取时间格式的几个举例](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#3%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%E7%9A%84%E5%87%A0%E4%B8%AA%E4%B8%BE%E4%BE%8B)
+- [4.获取字符串字节长度](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#4%E8%8E%B7%E5%8F%96%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%97%E8%8A%82%E9%95%BF%E5%BA%A6)
+- [5.对象克隆、深拷贝](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#5%E5%AF%B9%E8%B1%A1%E5%85%8B%E9%9A%86%E6%B7%B1%E6%8B%B7%E8%B4%9D)
+- [6.组织结构代码证验证](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#6%E7%BB%84%E7%BB%87%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E8%AF%81%E9%AA%8C%E8%AF%81)
+- [7.身份证号验证](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#7%E8%BA%AB%E4%BB%BD%E8%AF%81%E5%8F%B7%E9%AA%8C%E8%AF%81)
+- [8.js正则为url添加http标识](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#8js%E6%AD%A3%E5%88%99%E4%B8%BAurl%E6%B7%BB%E5%8A%A0http%E6%A0%87%E8%AF%86)
+- [9.URL有效性校验方法](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#9url%E6%9C%89%E6%95%88%E6%80%A7%E6%A0%A1%E9%AA%8C%E6%96%B9%E6%B3%95)
+- [10.自定义jsonp方法](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#10%E8%87%AA%E5%AE%9A%E4%B9%89jsonp%E6%96%B9%E6%B3%95)
+- [11.cookie操作](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#11cookie%E6%93%8D%E4%BD%9C)
+- [12.生成随机字符串(可指定长度)](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#12%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8F%AF%E6%8C%87%E5%AE%9A%E9%95%BF%E5%BA%A6)
+- [13.浏览器判断](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#13%E6%B5%8F%E8%A7%88%E5%99%A8%E5%88%A4%E6%96%AD)
+- [14.Rem移动端适配](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#14rem%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%80%82%E9%85%8D)
+- [15.获取url后参数](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#15%E8%8E%B7%E5%8F%96url%E5%90%8E%E5%8F%82%E6%95%B0)
+- [16.动态加载JS](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#16%E5%8A%A8%E6%80%81%E5%8A%A0%E8%BD%BDjs)
 
 ### 1.截取指定字节数的字符串
 
@@ -102,7 +116,7 @@ function checkLength(v){
    return realLength;
 }
 ```  
-# 5.对象克隆、深拷贝
+### 5.对象克隆、深拷贝
 ```javascript
 /**
  * 对象克隆&深拷贝
