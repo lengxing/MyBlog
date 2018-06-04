@@ -16,6 +16,7 @@
 - [14.Rem移动端适配](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#14rem%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%80%82%E9%85%8D)
 - [15.获取url后参数](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#15%E8%8E%B7%E5%8F%96url%E5%90%8E%E5%8F%82%E6%95%B0)
 - [16.动态加载JS](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#16%E5%8A%A8%E6%80%81%E5%8A%A0%E8%BD%BDjs)
+- [17.生成随机颜色值](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#17%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E9%A2%9C%E8%89%B2%E5%80%BC)
 
 ### 1.截取指定字节数的字符串
 
@@ -519,7 +520,7 @@ function loadScript(url, callback) {
 
 ### 17.生成随机颜色值
 
-```
+```javascript
 function getRandomColor () {
   const rgb = []
   for (let i = 0 ; i < 3; ++i){
