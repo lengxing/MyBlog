@@ -1,7 +1,7 @@
 # 个人博客记录
 知识在于积累
 
-更多内容也可参照https://segmentfault.com/u/lengxing
+更多内容也可参照https://lengxing.club
 
 ## React系列
 - [状态（State）和生命周期](https://github.com/lengxing/MyBlog/blob/master/201708/%E3%80%90React%E7%B3%BB%E5%88%97%E3%80%91%E7%8A%B6%E6%80%81%EF%BC%88State%EF%BC%89%E5%92%8C%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.md)
