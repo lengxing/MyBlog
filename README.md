@@ -22,3 +22,4 @@
 - [字符串扩展](https://github.com/lengxing/MyBlog/blob/master/201805/%E3%80%90ES6%E7%B3%BB%E5%88%97%E3%80%91%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%89%A9%E5%B1%95.md)
 - [数值的扩展](https://github.com/lengxing/MyBlog/blob/master/201805/%E3%80%90ES6%E7%B3%BB%E5%88%97%E3%80%91%E6%95%B0%E5%80%BC%E7%9A%84%E6%89%A9%E5%B1%95.md)
 - [Symbol](https://github.com/lengxing/MyBlog/blob/master/201806/%E3%80%90ES6%E7%B3%BB%E5%88%97%E3%80%91Symbol.md)
+- [Set和Map](https://github.com/lengxing/MyBlog/blob/master/201806/%E3%80%90ES6%E7%B3%BB%E5%88%97%E3%80%91Set%E5%92%8CMap.md)
