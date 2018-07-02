@@ -24,3 +24,4 @@
 - [Symbol](https://github.com/lengxing/MyBlog/blob/master/201806/%E3%80%90ES6%E7%B3%BB%E5%88%97%E3%80%91Symbol.md)
 - [Set和Map](https://github.com/lengxing/MyBlog/blob/master/201806/%E3%80%90ES6%E7%B3%BB%E5%88%97%E3%80%91Set%E5%92%8CMap.md)
 - [Proxy和Reflect](https://github.com/lengxing/MyBlog/blob/master/201806/%E3%80%90ES6%E7%B3%BB%E5%88%97%E3%80%91Proxy%E5%92%8CReflect.md)
+- [Promise](https://github.com/lengxing/MyBlog/blob/master/201807/%E3%80%90ES6%E7%B3%BB%E5%88%97%E3%80%91Promise.md)
