@@ -11,4 +11,4 @@
 
 ## React
 
-[React技术栈相关](http://htmlpreview.github.io/?https://github.com/lengxing/MyBlog/blob/master/MindMaps/ReactMaterials.html)
+[React知识体系(未完待续)](http://htmlpreview.github.io/?https://github.com/lengxing/MyBlog/blob/master/MindMaps/ReactMaterials.html)
