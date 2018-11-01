@@ -32,3 +32,7 @@
 - [Set和Map](https://github.com/lengxing/MyBlog/issues/6)
 - [Proxy和Reflect](https://github.com/lengxing/MyBlog/issues/5)
 - [Promise](https://github.com/lengxing/MyBlog/issues/1)
+
+## 工作识记
+
+- [地图小区景点边界轮廓实现](https://github.com/lengxing/MyBlog/issues/19)
