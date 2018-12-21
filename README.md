@@ -19,6 +19,7 @@
 - [React之PureComponent](https://github.com/lengxing/MyBlog/issues/18)
 - [React组件的生命周期](https://github.com/lengxing/MyBlog/issues/20)
 - [React事件处理浅谈](https://github.com/lengxing/MyBlog/issues/21)
+- [React组件的State](https://github.com/lengxing/MyBlog/issues/22)
 
 ## Javascript设计模式系列
 - [单例模式](https://github.com/lengxing/MyBlog/blob/master/201801/%E3%80%90JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%91%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
