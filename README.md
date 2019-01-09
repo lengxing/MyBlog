@@ -39,3 +39,4 @@
 ## 工作识记
 
 - [地图小区景点边界轮廓实现](https://github.com/lengxing/MyBlog/issues/19)
+- [Web Worker使用初体验](https://github.com/lengxing/MyBlog/issues/23)
