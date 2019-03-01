@@ -40,3 +40,4 @@
 
 - [地图小区景点边界轮廓实现](https://github.com/lengxing/MyBlog/issues/19)
 - [Web Worker使用初体验](https://github.com/lengxing/MyBlog/issues/23)
+- [序列帧&一镜到底H5开发实现分析](https://github.com/lengxing/MyBlog/issues/24)
