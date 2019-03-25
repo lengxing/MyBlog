@@ -38,7 +38,7 @@
 
 ## Vue.js系列
 
-- [Vue.js基础拾遗](https://github.com/lengxing/MyBlog/issues/25
+- [Vue.js基础拾遗](https://github.com/lengxing/MyBlog/issues/25)
 - [深入Vue.js组件(一)](https://github.com/lengxing/MyBlog/issues/26)
 
 ## 工作识记
