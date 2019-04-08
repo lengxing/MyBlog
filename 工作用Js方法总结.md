@@ -16,7 +16,11 @@
 - [14.Rem移动端适配](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#14rem%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%80%82%E9%85%8D)
 - [15.获取url后参数](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#15%E8%8E%B7%E5%8F%96url%E5%90%8E%E5%8F%82%E6%95%B0)
 - [16.动态加载JS](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#16%E5%8A%A8%E6%80%81%E5%8A%A0%E8%BD%BDjs)
-- [17.生成随机颜色值](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#17%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E9%A2%9C%E8%89%B2%E5%80%BC)
+- [17.生成随机颜色值](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#17%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E9%A2%9C%E8%89%B2%E5%80%B)
+- 18.事件绑定与解绑
+- 19.移动端音频播放
+- 20.移动端视频适配
+- 21.Webpack+Vue-CLI实现自动全局注册组件
 
 ### 1.截取指定字节数的字符串
 
@@ -530,4 +534,101 @@ function getRandomColor () {
   }
   return '#' + rgb.join('');
 }
+```
+
+### 18.事件绑定与解绑
+
+```
+ElementClass.prototype.on = function (name, callback) {
+    this.callbacks[name] = this.callbacks[name] || []
+    this.callbacks[name].push(callback)
+}
+
+ElementClass.prototype.off = function (name, callback) {
+    var callbacks = this.callbacks[name]
+    if (callbacks && callbacks instanceof Array) {
+        var index = callbacks.indexOf(callback)
+        if (index !== -1) callbacks.splice(index, 1)
+    }
+}
+
+ElementClass.prototype.trigger = function (name, params) {
+    var callbacks = this.callbacks[name]
+    if (callbacks && callbacks instanceof Array) {
+        callbacks.forEach((cb) => {
+            cb(params)
+        })
+    }
+}
+```
+
+### 19.移动端音频播放
+
+```
+/**
+  * 移动端H5播放音乐处理，兼容微信端
+  * @param el 音乐Audio元素
+  */
+function playMusic(el) {
+    var b = document.getElementById(el);
+
+    var c = function c() {
+        b.play();
+        document.removeEventListener("touchstart", c, true);
+    };
+
+    b.play();
+    document.addEventListener("WeixinJSBridgeReady", function () {
+        c();
+    }, false);
+    document.addEventListener("YixinJSBridgeReady", function () {
+        c();
+    }, false);
+    document.addEventListener("touchstart", c, true);
+}
+```
+
+### 20.移动端视频适配
+
+```
+<video class="video1" webkit-playsinline="true" x-webkit-airplay="true" playsinline="true" x5-video-player-type="h5" x5-video-player-fullscreen="true"  preload="auto" poster="poster图片地址" src="视频地址"></video>
+```
+
+### 21.Webpack+Vue-CLI实现自动全局注册组件
+
+```
+// 需要 npm import --save lodash
+import upperFirst from 'lodash/upperFirst'
+import camelCase from 'lodash/camelCase'
+
+const requireComponent = require.context(
+  // 其组件目录的相对路径
+  './components',
+  // 是否查询其子目录
+  false,
+  // 匹配基础组件文件名的正则表达式，获取.vue结尾的文件
+  /.vue$/
+)
+
+
+requireComponent.keys().forEach(fileName => {
+  // 获取组件配置
+  const componentConfig = requireComponent(fileName)
+
+  // 获取组件的 PascalCase 命名
+  const componentName = upperFirst(
+    camelCase(
+      // 剥去文件名开头的 `./` 和结尾的扩展名
+      fileName.replace(/^\.\/(.*)\.\w+$/, '$1')
+    )
+  )
+
+  // 全局注册组件
+  Vue.component(
+    componentName,
+    // 如果这个组件选项是通过 `export default` 导出的，
+    // 那么就会优先使用 `.default`，
+    // 否则回退到使用模块的根。
+    componentConfig.default || componentConfig
+  )
 ```
