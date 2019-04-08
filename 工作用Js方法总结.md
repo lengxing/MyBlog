@@ -17,10 +17,10 @@
 - [15.获取url后参数](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#15%E8%8E%B7%E5%8F%96url%E5%90%8E%E5%8F%82%E6%95%B0)
 - [16.动态加载JS](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#16%E5%8A%A8%E6%80%81%E5%8A%A0%E8%BD%BDjs)
 - [17.生成随机颜色值](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#17%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E9%A2%9C%E8%89%B2%E5%80%B)
-- 18.事件绑定与解绑
-- 19.移动端音频播放
-- 20.移动端视频适配
-- 21.Webpack+Vue-CLI实现自动全局注册组件
+- [18.事件绑定与解绑](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#18%E4%BA%8B%E4%BB%B6%E7%BB%91%E5%AE%9A%E4%B8%8E%E8%A7%A3%E7%BB%91)
+- [19.移动端音频播放](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#19%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%9F%B3%E9%A2%91%E6%92%AD%E6%94%BE)
+- [20.移动端视频适配](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#20%E7%A7%BB%E5%8A%A8%E7%AB%AF%E8%A7%86%E9%A2%91%E9%80%82%E9%85%8D)
+- [21.Webpack+Vue-CLI实现自动全局注册组件](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md#21webpackvue-cli%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E5%85%A8%E5%B1%80%E6%B3%A8%E5%86%8C%E7%BB%84%E4%BB%B6)
 
 ### 1.截取指定字节数的字符串
 
