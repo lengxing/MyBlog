@@ -42,6 +42,10 @@
 - [浅尝Vue.js组件(一)](https://github.com/lengxing/MyBlog/issues/26)
 - [浅尝Vue.js组件(二)](https://github.com/lengxing/MyBlog/issues/27)
 
+## 微信小程序系列
+
+- [登录功能](https://github.com/lengxing/MyBlog/issues/28)
+
 ## 工作识记
 
 - [地图小区景点边界轮廓实现](https://github.com/lengxing/MyBlog/issues/19)
