@@ -538,7 +538,7 @@ function getRandomColor () {
 
 ### 18.事件绑定与解绑
 
-```
+```javascript
 ElementClass.prototype.on = function (name, callback) {
     this.callbacks[name] = this.callbacks[name] || []
     this.callbacks[name].push(callback)
@@ -564,7 +564,7 @@ ElementClass.prototype.trigger = function (name, params) {
 
 ### 19.移动端音频播放
 
-```
+```javascript
 /**
   * 移动端H5播放音乐处理，兼容微信端
   * @param el 音乐Audio元素
@@ -590,13 +590,13 @@ function playMusic(el) {
 
 ### 20.移动端视频适配
 
-```
+```html
 <video class="video1" webkit-playsinline="true" x-webkit-airplay="true" playsinline="true" x5-video-player-type="h5" x5-video-player-fullscreen="true"  preload="auto" poster="poster图片地址" src="视频地址"></video>
 ```
 
 ### 21.Webpack+Vue-CLI实现自动全局注册组件
 
-```
+```javascript
 // 需要 npm import --save lodash
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
