@@ -52,6 +52,3 @@
 - [Web Worker使用初体验](https://github.com/lengxing/MyBlog/issues/23)
 - [序列帧&一镜到底H5开发实现分析](https://github.com/lengxing/MyBlog/issues/24)
 - [11个教程中不常被提及的JavaScript小技巧](https://github.com/lengxing/MyBlog/issues/29)
-
-
-## 工作识记
