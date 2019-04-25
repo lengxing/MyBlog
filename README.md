@@ -1,13 +1,11 @@
 # 个人博客记录
 知识在于积累
 
-### 请不要新开Issue！
-
-### 请不要新开Issue！
-
-### 请不要新开Issue！
-
 更多内容也可参照https://lengxing.club
+
+或者关注公众号
+
+![公众号](https://segmentfault.com/img/bVbrzrM?w=258&h=258)
 
 ## React系列
 - [状态（State）和生命周期](https://github.com/lengxing/MyBlog/issues/17)
