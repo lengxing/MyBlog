@@ -53,4 +53,4 @@
 - [11个教程中不常被提及的JavaScript小技巧](https://github.com/lengxing/MyBlog/issues/29)
 - [JavaScript中十种一步拷贝数组的方法](https://github.com/lengxing/MyBlog/issues/30)
 - [URLSearchParams初体验](https://github.com/lengxing/MyBlog/issues/31)
-- [关于history的一点心得](https://github.com/lengxing/MyBlog/issues/31)
+- [关于history的一点心得](https://github.com/lengxing/MyBlog/issues/32)
