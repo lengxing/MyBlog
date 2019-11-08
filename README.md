@@ -22,9 +22,6 @@
 - [React高阶组件以及应用场景](https://github.com/lengxing/MyBlog/issues/33)
 
 
-## Javascript设计模式系列
-- [单例模式](https://github.com/lengxing/MyBlog/blob/master/201801/%E3%80%90JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%91%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
-
 ## ES6系列
 
 - [变量与块级作用域](https://github.com/lengxing/MyBlog/issues/10)
