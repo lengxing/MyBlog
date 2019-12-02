@@ -8,6 +8,8 @@
 
 ![公众号](https://segmentfault.com/img/bVbrzrM?w=258&h=258)
 
+欢迎大家Star🌟🌟
+
 ## React系列
 - [状态（State）和生命周期](https://github.com/lengxing/MyBlog/issues/17)
 - [列表（Lists）和键（Keys）](https://github.com/lengxing/MyBlog/issues/15)
