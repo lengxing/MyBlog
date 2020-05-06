@@ -2,9 +2,8 @@
 
 > 知识在于积累
 
-更多内容也可参照https://lengxing.club
+关注公众号，可以及时接收更新哦
 
-或者关注公众号
 
 ![公众号](https://segmentfault.com/img/bVbrzrM?w=258&h=258)
 
