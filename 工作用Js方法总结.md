@@ -729,6 +729,10 @@ function numDiv (num1, num2) {
 
 ### 23.统一社会信用代码验证
 
+规则：
+
+![统一社会信用代码规则](https://github.com/lengxing/MyBlog/blob/master/Images/socialCode.png)
+
 ```javascript
 /**
 * @description 验证统一社会信用代码
