@@ -725,3 +725,18 @@ function numDiv (num1, num2) {
     return (baseNum3 / baseNum4) * Math.pow(10, baseNum2 - baseNum1);
 }
 ```
+
+### 23.统一社会信用代码验证
+
+```javascript
+/**
+* @description 验证统一社会信用代码
+* @param socialCode 被验证代码
+* @return Boolean
+*/
+function isSocialCode(socialCode) {
+  const reg = /[0-9A-HJ-NPQRTUWXY]{2}\d{6}[0-9A-HJ-NPQRTUWXY]{10}/;
+  return reg.test(socialCode);
+}
+
+```
