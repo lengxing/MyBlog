@@ -56,7 +56,7 @@
 - [关于history的一点心得](https://github.com/lengxing/MyBlog/issues/32)
 - [工作用Js方法总结](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md)
 - [前端H5 Video常见场景浅析](https://github.com/lengxing/MyBlog/issues/35)
-- [5个不为所云的HTML技巧](https://github.com/lengxing/MyBlog/issues/36)
+- [5个不常提及的HTML技巧](https://github.com/lengxing/MyBlog/issues/36)
 
 ## 面试相关
  - TODO
