@@ -45,18 +45,20 @@
 
 - [登录功能](https://github.com/lengxing/MyBlog/issues/28)
 
-## 工作识记
+## Javascript
+- [11个教程中不常被提及的JavaScript小技巧](https://github.com/lengxing/MyBlog/issues/29)
+- [JavaScript中十种一步拷贝数组的方法](https://github.com/lengxing/MyBlog/issues/30)
+- [工作用Js方法总结](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md)
 
+## 工作识记
 - [地图小区景点边界轮廓实现](https://github.com/lengxing/MyBlog/issues/19)
 - [Web Worker使用初体验](https://github.com/lengxing/MyBlog/issues/23)
 - [序列帧&一镜到底H5开发实现分析](https://github.com/lengxing/MyBlog/issues/24)
-- [11个教程中不常被提及的JavaScript小技巧](https://github.com/lengxing/MyBlog/issues/29)
-- [JavaScript中十种一步拷贝数组的方法](https://github.com/lengxing/MyBlog/issues/30)
 - [URLSearchParams初体验](https://github.com/lengxing/MyBlog/issues/31)
 - [关于history的一点心得](https://github.com/lengxing/MyBlog/issues/32)
-- [工作用Js方法总结](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md)
 - [前端H5 Video常见场景浅析](https://github.com/lengxing/MyBlog/issues/35)
 - [5个不常提及的HTML技巧](https://github.com/lengxing/MyBlog/issues/36)
+- [记一次老项目的交接经历](https://github.com/lengxing/MyBlog/issues/37)
 
 ## 面试相关
  - TODO
