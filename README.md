@@ -60,6 +60,7 @@
 - [前端H5 Video常见场景浅析](https://github.com/lengxing/MyBlog/issues/35)
 - [5个不常提及的HTML技巧](https://github.com/lengxing/MyBlog/issues/36)
 - [记一次老项目的交接经历](https://github.com/lengxing/MyBlog/issues/37)
+- [一次基于Taro的曝光逻辑踩坑记录](https://github.com/lengxing/MyBlog/issues/40)
 
 ## 面试相关
  - TODO
