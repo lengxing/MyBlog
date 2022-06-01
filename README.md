@@ -49,6 +49,7 @@
 - [11个教程中不常被提及的JavaScript小技巧](https://github.com/lengxing/MyBlog/issues/29)
 - [JavaScript中十种一步拷贝数组的方法](https://github.com/lengxing/MyBlog/issues/30)
 - [工作用Js方法总结](https://github.com/lengxing/MyBlog/blob/master/%E5%B7%A5%E4%BD%9C%E7%94%A8Js%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md)
+- [11个常用JS小小技巧](https://github.com/lengxing/MyBlog/issues/39)
 
 ## 工作识记
 - [地图小区景点边界轮廓实现](https://github.com/lengxing/MyBlog/issues/19)
