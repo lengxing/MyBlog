@@ -40,6 +40,7 @@
 - [Vue.js基础拾遗](https://github.com/lengxing/MyBlog/issues/25)
 - [浅尝Vue.js组件(一)](https://github.com/lengxing/MyBlog/issues/26)
 - [浅尝Vue.js组件(二)](https://github.com/lengxing/MyBlog/issues/27)
+- [Vue3组合式函数最佳实践(一)](https://github.com/lengxing/MyBlog/issues/41)
 
 ## 微信小程序系列
 
