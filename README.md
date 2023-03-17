@@ -42,6 +42,7 @@
 - [浅尝Vue.js组件(二)](https://github.com/lengxing/MyBlog/issues/27)
 - [Vue3组合式函数最佳实践(一)](https://github.com/lengxing/MyBlog/issues/41)
 - 🆕[🍍(Pinia)不酸，保甜 ](https://github.com/lengxing/MyBlog/issues/42)
+- 🆕[Vue 3中依赖注入与组件定义相关的那点事儿](https://github.com/lengxing/MyBlog/issues/44)
 
 ## 微信小程序系列
 
