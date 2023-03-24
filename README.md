@@ -72,3 +72,6 @@
 
 ## 前端基础系列
  - [前端基础回归-URI和URL](https://github.com/lengxing/MyBlog/issues/38)
+ 
+## 工程构建相关
+ - 🆕[前端依赖管理那点事儿](https://github.com/lengxing/MyBlog/issues/45)
