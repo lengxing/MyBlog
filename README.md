@@ -55,6 +55,7 @@
 - [11个常用JS小小技巧](https://github.com/lengxing/MyBlog/issues/39)
 - [2023我还不知道的JSON Schema-基础篇](https://github.com/lengxing/MyBlog/issues/43)
 - [浅谈Intl.NumberFormat](https://github.com/lengxing/MyBlog/issues/46)
+- [浅谈Intl对象（DateTimeFormat、ListFormat、RelativeTimeFormat）](https://github.com/lengxing/MyBlog/issues/47)
 
 ## 工作识记
 - [地图小区景点边界轮廓实现](https://github.com/lengxing/MyBlog/issues/19)
