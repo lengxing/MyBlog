@@ -72,8 +72,7 @@
 - [一次基于Taro的曝光逻辑踩坑记录](https://github.com/lengxing/MyBlog/issues/40)
 
 ## 面试相关
- - TODO
- -
+ - [8月血泪史，助力金九银十](https://github.com/lengxing/MyBlog/issues/51)
 
 ## 前端基础系列
  - [前端基础回归-URI和URL](https://github.com/lengxing/MyBlog/issues/38)
